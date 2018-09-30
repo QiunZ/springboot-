@@ -66,3 +66,62 @@
 - 先创建一个异常信息pojo:ErrorInfo，封装相关异常信息：比如url,data,message
 - 然后创建一个全局异常处理器，通过@ExceptionHandler的value属性匹配各种异常，通过@ResponseBody返回json格式数据，将异常信息传入ErrorInfo对象，返回ErrorInfo对象
 - 或者可以通过模版，将异常信息封装入ModelAndView对象，然后将这个ModelAndView对象传入模版
+
+
+
+
+
+
+
+
+**快速入门**
+
+·         [基础项目构建，引入web模块，完成一个简单的RESTful API](http://blog.didispace.com/spring-boot-learning-1/)
+
+·         [使用Intellij中的Spring Initializr来快速构建Spring Boot/Cloud工程](http://blog.didispace.com/spring-initializr-in-intellij/)
+
+·         [配置文件详解：自定义属性、随机数、多环境配置等](http://blog.didispace.com/springbootproperties/)
+
+**Web开发**
+
+·         [构建一个较为复杂的RESTful API以及单元测试](http://blog.didispace.com/springbootrestfulapi/)
+
+·         [使用Swagger2构建RESTful API](http://blog.didispace.com/springbootswagger2/)
+
+·         [自制的spring-boot-starter-swagger](https://github.com/SpringForAll/spring-boot-starter-swagger)
+
+·         [统一异常处理](http://blog.didispace.com/springbootexception/)
+
+**数据访问**
+
+·         [使用JdbcTemplate](http://blog.didispace.com/springbootdata1/)
+
+·         [使用Spring-data-jpa简化数据访问层（推荐）](http://blog.didispace.com/springbootdata2/)
+
+·         [多数据源配置（一）：JdbcTemplate](http://blog.didispace.com/springbootmultidatasource/)
+
+·         [多数据源配置（二）：Spring-data-jpa](http://blog.didispace.com/springbootmultidatasource/)
+
+·         [使用NoSQL数据库（一）：Redis](http://blog.didispace.com/springbootredis/)
+
+·         [整合MyBatis](http://blog.didispace.com/springbootmybatis/)
+
+·         [MyBatis注解配置详解](http://blog.didispace.com/mybatisinfo/)
+
+**缓存支持**
+
+·         [使用Redis做集中式缓存](http://blog.didispace.com/springbootcache2/)
+
+**日志管理**
+
+·         [默认日志的配置](http://blog.didispace.com/springbootlog/)
+
+·         [使用log4j记录日志](http://blog.didispace.com/springbootlog4j/)
+
+·         [对log4j进行多环境不同日志级别的控制](http://blog.didispace.com/springbootlog4jmuilt/)
+
+·         [使用AOP统一处理Web请求日志](http://blog.didispace.com/springbootaoplog/)
+
+·         [使用log4j记录日志到MongoDB](http://blog.didispace.com/springbootlog4jmongodb/)
+
+·         [Spring Boot 1.5.x新特性：动态修改日志级别](http://blog.didispace.com/spring-boot-1-5-x-feature-1/)]
